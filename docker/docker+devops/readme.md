@@ -273,13 +273,13 @@ Vagrantfile可以定义虚拟机启动后安装一些软件
     mkdir centos7
     cd centos7 # 当前目录
     vagrant init centos/7 # 初始化一台机器 Vagrantfile 描述了创建机器内容
-    vargrant up # 创建一台centos7机器
-    vargrant ssh # 进入虚拟机
+    vagrant up # 创建一台centos7机器
+    vagrant ssh # 进入虚拟机
     exit # 退出虚拟机
-    vargrant status # 显示当前运行虚拟机
-    vargrant halt # 停止虚拟机
-    vargrant status # 显示当前运行虚拟机
-    vargrant destroy # 删除虚拟机
+    vagrant status # 显示当前运行虚拟机
+    vagrant halt # 停止虚拟机
+    vagrant status # 显示当前运行虚拟机
+    vagrant destroy # 删除虚拟机
     
 ## Docker Machine的本地使用
 
