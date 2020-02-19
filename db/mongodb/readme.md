@@ -1133,6 +1133,8 @@ db.collection.update()
     
 $set 更新或新增字段
 
+db.collection.update({}, {$set: {otherkey: ‘otherval’}}, {multi: 1})
+
 语法: ```{$set: {<field1>:<values1>, ....}}```
 
     查看jack的银行账户文档
